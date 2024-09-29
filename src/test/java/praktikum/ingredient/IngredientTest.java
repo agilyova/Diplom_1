@@ -12,9 +12,9 @@ import static praktikum.IngredientType.FILLING;
 
 public class IngredientTest {
 
-    private final String REGULAR_NAME = "Острый соус";
-    private final float REGULAR_PRICE = 300;
-    private final double DELTA = 0.01;
+    private static final String REGULAR_NAME = "Острый соус";
+    private static final float REGULAR_PRICE = 300;
+    private static final double DELTA = 0.01;
 
     @Test
     public void constructorSetNameCorrect() {

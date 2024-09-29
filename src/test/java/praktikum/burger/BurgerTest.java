@@ -19,17 +19,17 @@ import static org.junit.Assert.*;
 @RunWith(MockitoJUnitRunner.class)
 public class BurgerTest {
 
-    private final float BUN_PRICE = 300;
-    private final String BUN_NAME = "black bun";
-    private final float FIRST_INGREDIENT_PRICE = 125;
-    private final String FIRST_INGREDIENT_NAME = "hot sauce";
-    private final float SECOND_INGREDIENT_PRICE = 100.5F;
-    private final String SECOND_INGREDIENT_NAME = "cutlet";
-    private final float EXPECTED_BURGER_WITH_ZERO_INGREDIENTS_PRICE = 600;
-    private final float EXPECTED_BURGER_WITH_ONE_INGREDIENT_PRICE = 725;
-    private final float EXPECTED_BURGER_WITH_TWO_INGREDIENTS_PRICE = 825.5F;
-    private final double DELTA = 0.01;
-    private final String LS = System.lineSeparator();
+    private static final float BUN_PRICE = 300;
+    private static final String BUN_NAME = "black bun";
+    private static final float FIRST_INGREDIENT_PRICE = 125;
+    private static final String FIRST_INGREDIENT_NAME = "hot sauce";
+    private static final float SECOND_INGREDIENT_PRICE = 100.5F;
+    private static final String SECOND_INGREDIENT_NAME = "cutlet";
+    private static final float EXPECTED_BURGER_WITH_ZERO_INGREDIENTS_PRICE = 600;
+    private static final float EXPECTED_BURGER_WITH_ONE_INGREDIENT_PRICE = 725;
+    private static final float EXPECTED_BURGER_WITH_TWO_INGREDIENTS_PRICE = 825.5F;
+    private static final double DELTA = 0.01;
+    private static final String LS = System.lineSeparator();
 
     @Mock
     private Bun bun;

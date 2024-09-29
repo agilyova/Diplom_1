@@ -14,11 +14,11 @@ public class IngredientConstructorNegativeParametrizedTest {
     private String name;
     private float price;
 
-    private final static String REGULAR_NAME = "Острый соус";
-    private final static float REGULAR_PRICE = 300;
-    private final static String EMPTY_STRING = "";
-    private final static String WHITE_SPACE_STRING = "";
-    private final static float negativePrice = new Faker().number().numberBetween(-500, -100);
+    private static final String REGULAR_NAME = "Острый соус";
+    private static final float REGULAR_PRICE = 300;
+    private static final String EMPTY_STRING = "";
+    private static final String WHITE_SPACE_STRING = "";
+    private static final float negativePrice = new Faker().number().numberBetween(-500, -100);
 
     public IngredientConstructorNegativeParametrizedTest(String name, float price) {
         this.name = name;

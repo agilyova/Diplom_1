@@ -12,11 +12,11 @@ import static praktikum.IngredientType.SAUCE;
 @RunWith(Parameterized.class)
 public class IngredientConstructorPricePositiveParametrizedTest {
 
-    private final String REGULAR_NAME = "Острый соус";
-    private final static float INTEGER_PRICE = (float) new Faker().number().numberBetween(1, 5000);
-    private final static float FLOAT_PRICE = (float) new Faker().number().randomDouble(5, 100, 5000);
-    private final static float ZERO_PRICE = 0;
-    private final double DELTA = 0.01;
+    private static final String REGULAR_NAME = "Острый соус";
+    private static final float INTEGER_PRICE = (float) new Faker().number().numberBetween(1, 5000);
+    private static final float FLOAT_PRICE = (float) new Faker().number().randomDouble(5, 100, 5000);
+    private static final float ZERO_PRICE = 0;
+    private static final double DELTA = 0.01;
 
     private float price;
 

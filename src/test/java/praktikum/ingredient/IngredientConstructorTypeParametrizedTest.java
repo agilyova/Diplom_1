@@ -13,8 +13,8 @@ import static praktikum.IngredientType.SAUCE;
 @RunWith(Parameterized.class)
 public class IngredientConstructorTypeParametrizedTest {
 
-    private final static String REGULAR_NAME = "Острый соус";
-    private final static float REGULAR_PRICE = (float) 300;
+    private static final String REGULAR_NAME = "Острый соус";
+    private static final float REGULAR_PRICE = (float) 300;
 
     private IngredientType type;
     private String name;

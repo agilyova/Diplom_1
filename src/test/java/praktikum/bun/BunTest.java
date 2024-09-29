@@ -6,9 +6,9 @@ import praktikum.Bun;
 import static org.junit.Assert.assertEquals;
 
 public class BunTest {
-    private final String REGULAR_NAME = "black bun";
-    private final float REGULAR_PRICE = 100;
-    private final double DELTA = 0.01;
+    private static final String REGULAR_NAME = "black bun";
+    private static final float REGULAR_PRICE = 100;
+    private static final double DELTA = 0.01;
 
     @Test
     public void constructorSetsNameCorrect() {
